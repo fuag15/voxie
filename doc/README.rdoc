@@ -1,0 +1,36 @@
+= Voxie Development readme
+
+A base config for Angularjs / d3js / threejs / webgl
+
+== Dev Guidlines
+
+- Use git flow
+- Use the issue tracker
+- Comment
+- Test
+- Keep docs up to date!
+
+=== Testing
+
+- rake spec
+- rake spec:coverage
+- rake analyzer:all
+- rake spec:view
+
+=== Super Testing
+
+- rake parallel:create # create db's
+- rake parallel:prepare # run migrations
+- zeus start # start zeus host
+- guard # start gaurd to watch files
+
+enjoy :)
+
+==== Coverage Report
+
+- see coverage[link:../coverage/index.html]
+
+=== Doccing
+
+- rake doc:reapp
+- rake doc:view

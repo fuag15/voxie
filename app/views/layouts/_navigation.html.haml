@@ -1,0 +1,9 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container-fluid
+      .span1
+      .span10
+        = link_to 'Photon', root_path, class: 'brand'
+        %ul.nav
+          %li{ class: nav_class( 'photons', 'index' ) }
+            = link_to 'Angular.js', root_path
