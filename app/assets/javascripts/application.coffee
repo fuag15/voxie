@@ -1,6 +1,6 @@
 #= require jquery
 #= require jquery_ujs
-#= require angluar
+#= require angular
 #= require angular-resource
 #= require bootstrap
 #= require d3
