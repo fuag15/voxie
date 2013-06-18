@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: voxie_development
+  pool: 5
+  username: voxie
+  password: voxie
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: voxie_test<%= ENV['TEST_ENV_NUMBER'] %>
+  pool: 5
+  username: voxie
+  password: voxie
+
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: voxie_production
+  pool: 5
+  username: voxie
+  password: voxie

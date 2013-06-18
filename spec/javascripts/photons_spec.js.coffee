@@ -1,0 +1,1 @@
+# use basic jamsine tests in here, fixture info in jquery-jasmine

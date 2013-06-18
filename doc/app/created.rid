@@ -1,0 +1,7 @@
+Mon, 17 Jun 2013 23:44:08 -0700
+app/controllers/application_controller.rb	Mon, 17 Jun 2013 23:32:05 -0700
+app/controllers/photons_controller.rb	Mon, 17 Jun 2013 23:10:53 -0700
+app/helpers/application_helper.rb	Mon, 17 Jun 2013 23:23:00 -0700
+app/models/ability.rb	Mon, 17 Jun 2013 23:33:11 -0700
+app/models/user.rb	Mon, 17 Jun 2013 23:40:59 -0700
+doc/README.rdoc	Mon, 17 Jun 2013 20:17:52 -0700
